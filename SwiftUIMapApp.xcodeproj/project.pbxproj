@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1986FD652C1BF11B008FA4BF /* LocationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1986FD642C1BF11B008FA4BF /* LocationsListView.swift */; };
 		19A89E732C1AB40C00479114 /* SwiftUIMapAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A89E722C1AB40C00479114 /* SwiftUIMapAppApp.swift */; };
 		19A89E752C1AB40C00479114 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A89E742C1AB40C00479114 /* ContentView.swift */; };
 		19A89E7A2C1AB40D00479114 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19A89E792C1AB40D00479114 /* Preview Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1986FD642C1BF11B008FA4BF /* LocationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsListView.swift; sourceTree = "<group>"; };
 		19A89E6F2C1AB40C00479114 /* SwiftUIMapApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIMapApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19A89E722C1AB40C00479114 /* SwiftUIMapAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIMapAppApp.swift; sourceTree = "<group>"; };
 		19A89E742C1AB40C00479114 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				19A89E8C2C1AB77E00479114 /* LocationsView.swift */,
+				1986FD642C1BF11B008FA4BF /* LocationsListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				19A89E8B2C1AB6C800479114 /* LocationsDataService.swift in Sources */,
+				1986FD652C1BF11B008FA4BF /* LocationsListView.swift in Sources */,
 				19A89E8F2C1AB9FF00479114 /* LocationsViewModel.swift in Sources */,
 				19A89E752C1AB40C00479114 /* ContentView.swift in Sources */,
 				19A89E8D2C1AB77E00479114 /* LocationsView.swift in Sources */,
