@@ -65,6 +65,24 @@ class LocationsDataService {
                 "paris-louvre-3",
             ],
             link: "https://en.wikipedia.org/wiki/Louvre"),
+        Location(name: "Taj Mahal",
+                 cityName: "Agra",
+                 coordinates: CLLocationCoordinate2D(latitude: 27.1751, longitude: 78.0421),
+                 description: "The Taj Mahal, located in Agra, India, is a magnificent white marble mausoleum built by Mughal Emperor Shah Jahan in memory of his beloved wife Mumtaz Mahal. Constructed between 1632 and 1653, this architectural masterpiece is renowned for its stunning symmetrical design, intricate inlay work with precious and semi-precious stones, and its beautifully landscaped gardens. The Taj Mahal is a UNESCO World Heritage Site and is often regarded as a symbol of eternal love and one of the most beautiful buildings in the world.",
+                 imageNames: [
+                    "taj-mahal-1",
+                    "taj-mahal-2",
+                 ],
+                 link: "https://en.wikipedia.org/wiki/Taj_Mahal"),
+        Location(name: "Statue of Liberty",
+                 cityName: "New York",
+                 coordinates: CLLocationCoordinate2D(latitude: 40.6892, longitude: -74.0445),
+                 description: "The Statue of Liberty, located on Liberty Island in New York Harbor, is an iconic symbol of freedom and democracy. It was a gift from France to the United States, designed by sculptor Frédéric Auguste Bartholdi and completed in 1886. The statue depicts a robed female figure representing Libertas, the Roman goddess of liberty, holding a torch in her right hand and a tablet inscribed with the date of the American Declaration of Independence (July 4, 1776) in her left hand. Standing at 305 feet (93 meters) from the ground to the tip of the torch, the Statue of Liberty is a UNESCO World Heritage Site and a welcoming sight to immigrants arriving by sea.",
+                 imageNames: [
+                    "statue-of-liberty-1",
+                    "statue-of-liberty-2",
+                 ],
+                 link: "https://en.wikipedia.org/wiki/Statue_of_Liberty")
     ]
     
 }
